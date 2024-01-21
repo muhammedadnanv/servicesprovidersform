@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>MP PLATFROM</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">MP PLATFROM</a>
+    <!-- Add navigation links here -->
+  </nav>
+
+  <!-- Service Listings -->
+ 
+  </div>
+
+  <!-- Booking Form Modal -->
+  <div class="modal fade" id="bookingModal" tabindex="-1" role="dialog" aria-labelledby="bookingModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <!-- Booking form will be dynamically generated here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Service Provider Section -->
+  <div class="container mt-4">
+    <h2>For Service Providers</h2>
+    <p>Join WeddingBooker to showcase your services and reach a wider audience.</p>
+    <p>Benefits of joining:</p>
+    <ul>
+      <li>Expand your client base by connecting with couples planning their weddings.</li>
+      <li>Showcase your work and portfolio to attract potential clients.</li>
+      <li>Manage your availability and bookings conveniently through our platform.</li>
+    </ul>
+    <ul>
+    <li>Engage couples, plan weddings, boost visibility, showcase services, share expertise.</li>
+    </ul>
+  </div>
+
+  <!-- Sign Up Section (to be implemented) -->
+  <div id="signup" class="container mt-4">
+    <h2>Sign Up as a Service Provider</h2>
+    <!-- Sign Up Section -->
+<div id="signup" class="container mt-4">
+  <h2>Service Providers</h2>
+  <!-- Sign-up Form -->
+  <form action="https://formspree.io/f/xeqyordg" method="post">
+    <div class="form-group">
+      <label for="providerName">Your Name</label>
+      <input type="text" class="form-control" id="providerName" placeholder="Enter your name" required>
+    </div>
+    <div class="form-group">
+      <label for="serviceName">Service Category</label>
+      <select class="form-control" id="serviceName" required>
+        <option value="" disabled selected>Select your service category</option>
+        <option value="makeupArtist">Makeup Artist</option>
+         <option value="lightandsound">LightAndsound</option>
+        <option value="dressRenter">Dress Renter</option>
+        <option value="decoders">Decoders</option>
+         <option value="hennaartist">HennaArtist</option>
+          <option value="catering">catering</option>
+        
+        <!-- Add more service categories as needed -->
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Sign Up</button>
+  </form>
+</div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
